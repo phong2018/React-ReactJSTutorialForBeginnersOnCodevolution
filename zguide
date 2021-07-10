@@ -1,5 +1,65 @@
 ------
-extension 
+* Extension 
 - Simple React Snippets
 - ES7 React/Redux/GraphQL/React-Native snippets
 - Prettier - Code formatter
+-------
+* Hot Key
+shift+alt+F: format code
+rfce
+rec
+rconst
+--------
+$25: Fragments
+
+--------
+$24: Updating lifecycle method
+- static getDirivedStateFromProps: called every time a component is rendered
+- shouldComponentUpdate(nextProps,nextState): 
+- render
+- getSnapshotBeforeUpdate(preProps,preState): called right before the changes from the virtual DOM are are to be reflected in the DOM
+- componentDidUpdate(preProps,preState,snapshot): called after the render is finished in the re-render cycles
+--------
+$23:Component Mouting lifecycle methods
++ constructor: 
++ static getDirivedStateFromProps
++ render: 
++ componentDidMount: interact with the DOM, ajax calls to load data
+--------
+$22: component lifecycle Method
+- mouting: when an instance of a component is being created and inserted into the DOM: (4) constructor, static getDirivedStateFromProps, render, componentDidMount
+- upateting: when a component is being re-rendered as a result of changes to either its props or state: (5) static getDirivedStateFromProps, shouldComponentUpdate, render, getSnapshotBeforeUpdate, compoentDidUpdate
+- unmouting: (1) when a component is being removed from the DOM: componentWillUnmount
+- error handling: when there is an error during rendering, in a lifecycle method, or in the constructor of any child component: (2) static getDirivedStateFromError, componentDidCatch.
+--------
+$21: Controlled component
+--------
+$20: Styling React component
+- css stylesheets
+- inline Styling
+- css modules
+- css in js libaries (styled compenents)
+--------
+$19: Index as key anti-pattern 
+--------
+$17: List rendering
+- when update will re-render childs 
++ react is going to compare pre-Key & curr-Key if there different will re-render. If no, NOT re-render.
+-> avoid use index in .map() to use key for list childs
+--------
+$16: Condition rendering
+UserGreeting.js
+--------
+$15: Method as props
+--------
+$14: Binding event handler
+- different: function and function call
++ function is variable
++ function call is implement function
+- arrow function is functon (is variable)
+--------
+$11: setState
+- setState(updater, [callback])
+--------
+$08: JSX
+- React.createElement(component, props, ...children)
