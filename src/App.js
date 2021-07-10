@@ -17,12 +17,20 @@ import "./appStyles.css";
 import styles from "./appStyles.module.css";
 import Form from "./components/Form";
 import LifecyleA from "./components/LifecyleA";
+import FragmentDemo from "./components/FragmentDemo";
+import Table from "./components/Table";
+import PureComp from "./components/PureComp";
+import ParentComp from "./components/ParentComp";
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <LifecyleA/>
+      <div className="App">
+        <ParentComp/>
+        {/* <PureComp/> */}
+        {/* <Table/> */}
+        {/* <FragmentDemo/> */}
+        {/* <LifecyleA/> */}
         {/* <Form/> */}
         {/* <h1 className='error'>Error</h1> */}
         {/* <h1 className={styles.success}>Success</h1> */}
