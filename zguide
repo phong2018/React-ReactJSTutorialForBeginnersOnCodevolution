@@ -11,7 +11,15 @@ rpce
 rec
 rconst
 --------
-$26: PureComponent: A pure component on the orther hand implement shouldComponentUpdate with a shallow props and state comparison
+
+-------- 
+$28: Refs
+--------
+$27: Memo: like PureComponent but use for function
+--------
+$26: PureComponent
+- if there is no different, the component is not re-render. 
+- A pure component on the orther hand implement shouldComponentUpdate with a shallow props and state comparison
 - shallow comparison
 + primative Types: return true if: same value && type
 + complex type: return true if: reference the exact same object
