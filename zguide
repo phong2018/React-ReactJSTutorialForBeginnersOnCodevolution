@@ -11,7 +11,8 @@ rpce
 rec
 rconst
 --------
-
+$28: Refs with class Component
+attach Refs to DOM element and classCompoent in React
 -------- 
 $28: Refs
 --------
