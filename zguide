@@ -11,10 +11,16 @@ rpce
 rec
 rconst
 --------
-$28: Refs with class Component
-attach Refs to DOM element and classCompoent in React
+$30: Forwading Refs: a technique to automatically passing a ref through a component to one of its childen
+- use for function component
+--------
+$29: Refs with class Component
+- to attach Refs to DOM element and classCompoent in React
+- have to use for Class Component
+- Special circumstances if at all you need a ref to a child component from a parent component
 -------- 
-$28: Refs
+$28: Refs: to access DOM node directly within react.
+
 --------
 $27: Memo: like PureComponent but use for function
 --------
