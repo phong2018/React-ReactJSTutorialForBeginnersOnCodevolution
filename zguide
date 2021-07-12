@@ -11,6 +11,11 @@ rpce
 rec
 rconst
 --------
+$31: Portals 
+- provide a way to render children into a DOM node thats exist outside the DOM hierachi of parent component. 
+- we had one DOM element in our HTML that we were mouting the react application into.
+- you can render a component onto a DOM node that is not under this root element
+--------
 $30: Forwading Refs: a technique to automatically passing a ref through a component to one of its childen
 - use for function component
 --------
