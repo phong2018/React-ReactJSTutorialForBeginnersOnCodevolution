@@ -11,6 +11,21 @@ rpce
 rec
 rconst
 --------
+$33: Higher Order Component(p2)
+- to share common functionality between components
+- a pattern where a function take a component as an argument and returns a news component
+- ex: const NewComponent =higherOrderComponent(originalComponent)
+--------
+$33: Higher Order Component(p1)
+--------
+$32: Error Boudary
+- are react Component that catch Javascript error in their child component tree, log these errors, and display a fall-back UI
+- a class component becomes an error boundary by defining either or both of getDirivedStateFromError and componentDidCatch lifecycle method
+-catch error in 
++ static getDirivedStateFromError(error)
++ componentDidCatch(error,info)
+
+--------
 $31: Portals 
 - provide a way to render children into a DOM node thats exist outside the DOM hierachi of parent component. 
 - we had one DOM element in our HTML that we were mouting the react application into.
