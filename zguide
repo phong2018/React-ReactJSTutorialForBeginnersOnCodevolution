@@ -11,6 +11,12 @@ rpce
 rec
 rconst
 --------
+$40: React Context (p3)
+- add default value for React.createContext(...)
+- ContextType to consume value 
++ only work with class component
++ suscribe single context
+--------
 $39: React Context (p2)
 1. create the Context
 2. provide a context value
