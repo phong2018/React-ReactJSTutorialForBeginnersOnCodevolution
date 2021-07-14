@@ -11,12 +11,16 @@ rpce
 rec
 rconst
 --------
-$33: Higher Order Component(p2)
+$35: Higher Order Component(p3)
+- passing down the props: {... this.props}
+- tranfer parameter for HOC
+--------
+$34: Higher Order Component(p2)
 - to share common functionality between components
 - a pattern where a function take a component as an argument and returns a news component
 - ex: const NewComponent =higherOrderComponent(originalComponent)
 --------
-$33: Higher Order Component(p1)
+$33: Higher Order Component(HOC)(p1)
 --------
 $32: Error Boudary
 - are react Component that catch Javascript error in their child component tree, log these errors, and display a fall-back UI
