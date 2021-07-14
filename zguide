@@ -11,6 +11,8 @@ rpce
 rec
 rconst
 --------
+$4: React Hook - useState with object
+--------
 $3: React Hook - useState with previous state
 --------
 $2: React Hook - useSate

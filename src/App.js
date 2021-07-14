@@ -40,12 +40,14 @@ import PostForm from "./components/HTTP/PostForm";
 import ClassCounter from "./components/HOOKS/ClassCounter";
 import HookCounter from "./components/HOOKS/HookCounter";
 import HookCounterTwo from "./components/HOOKS/HookCounterTwo";
+import HookCounterThree from "./components/HOOKS/HookCounterThree";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <HookCounterTwo />
+        <HookCounterThree />
+        {/* <HookCounterTwo /> */}
         {/* <HookCounter /> */}
         {/* <ClassCounter/> */}
         {/* <PostForm /> */}
