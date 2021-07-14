@@ -11,6 +11,12 @@ rpce
 rec
 rconst
 --------
+$36: Render Props (p2)
+the term 'render prop' refers to a technique for sharing code between React component using a prop whose value is a function
+--------
+$36: Render Props (p1)
+- to share common functionality between components
+--------
 $35: Higher Order Component(p3)
 - passing down the props: {... this.props}
 - tranfer parameter for HOC
