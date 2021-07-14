@@ -35,14 +35,17 @@ import User from "./components/User";
 import CounterTwo from "./components/CounterTwo";
 import ComponentC from "./components/ComponentC";
 import { UserProvider } from "./components/userContext";
+import PostList from "./components/HTTP/PostList";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <UserProvider value="Phong">
+        <PostList />
+
+        {/* <UserProvider value="Phong">
           <ComponentC />
-        </UserProvider>
+        </UserProvider> */}
 
         {/* <CounterTwo>
           {(count, incrementCount) => (

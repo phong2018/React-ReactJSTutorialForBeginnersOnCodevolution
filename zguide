@@ -11,6 +11,13 @@ rpce
 rec
 rconst
 --------
+$42: HTTP GET request
+https://jsonplaceholder.typicode.com/
+
+--------
+$41: http and React
+install: npm install axios
+--------
 $40: React Context (p3)
 - add default value for React.createContext(...)
 - ContextType to consume value 
