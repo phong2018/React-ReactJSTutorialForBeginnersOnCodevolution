@@ -11,9 +11,27 @@ rpce
 rec
 rconst
 --------
+$2: React Hook - useSate
+--------
+$1: React Hook - Introduction
+- allow you to use react feature without having to write class. ex: State of a component
+- Hooks don't work inside class
+* Why Hook
+- understand how This keywork works in Javascript
+- remember to bind event handlers in class component
+- class don't minify very well and make hot reloading very unreliable
+- there is no particular way to reuse statefull component logic- HOC and render props pattern do address this problem-> there is need a to share statefull logic in a better way.
+- Create component for complex scenarios such as data fetching and subscribing to events. Reated code is not organized in one place. Ex: Data fectching in componentDidMount & compoentDidUpdate; Event listeners in componentDidMount & componentWillUnmount. 
+- Because of stateful logic - cannot break component into smaller ones.
+- Hooks dont contain any breaking changes and the release is 100% backwards-compatible
+- hook dont replace your existing knowledge of React concepts
+- instead hook provide a more direct API to the react concepts you already know
+========================
+
+$43: HTTP POST request
+--------
 $42: HTTP GET request
 https://jsonplaceholder.typicode.com/
-
 --------
 $41: http and React
 install: npm install axios
