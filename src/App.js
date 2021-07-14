@@ -36,12 +36,20 @@ import CounterTwo from "./components/CounterTwo";
 import ComponentC from "./components/ComponentC";
 import { UserProvider } from "./components/userContext";
 import PostList from "./components/HTTP/PostList";
+import PostForm from "./components/HTTP/PostForm";
+import ClassCounter from "./components/HOOKS/ClassCounter";
+import HookCounter from "./components/HOOKS/HookCounter";
+import HookCounterTwo from "./components/HOOKS/HookCounterTwo";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <PostList />
+        <HookCounterTwo />
+        {/* <HookCounter /> */}
+        {/* <ClassCounter/> */}
+        {/* <PostForm /> */}
+        {/* <PostList /> */}
 
         {/* <UserProvider value="Phong">
           <ComponentC />
