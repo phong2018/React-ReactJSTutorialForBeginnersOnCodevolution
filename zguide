@@ -11,7 +11,15 @@ rpce
 rec
 rconst
 --------
-$36: Render Props (p2)
+$39: React Context (p2)
+1. create the Context
+2. provide a context value
+3. consume the context value
+--------
+$38: React Context (p1)
+Context provides a way to pass data through the component tree without having to pass props down manually at every level
+--------
+$37: Render Props (p2)
 the term 'render prop' refers to a technique for sharing code between React component using a prop whose value is a function
 --------
 $36: Render Props (p1)
