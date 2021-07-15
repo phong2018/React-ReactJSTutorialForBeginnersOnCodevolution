@@ -11,6 +11,10 @@ rpce
 rec
 rconst
 --------
+$8: React Hook - conditionally run effects 
+the second parameter is change is conditon to run effects
+if the value dont change between render  the useEffect not Run
+--------
 $7: React Hook - useEffect 
 useEffect ruen every component render 
 --------
