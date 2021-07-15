@@ -11,6 +11,9 @@ rpce
 rec
 rconst
 --------
+$11: React Hook - useEffect with incorrect dependency array (second parameter)
+- so whenever you try to specify an empty denpendency list. please make sure if you really dont have any.
+--------
 $10: React Hook - useEffect with cleanup
 like call componentWillUnmount()
 in call useEffect have to:
