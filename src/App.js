@@ -49,13 +49,17 @@ import HookMouse from "./components/HOOKS/HookMouse";
 import MouseContainer from "./components/HOOKS/MouseContainer";
 import IntervalClassCounter from "./components/HOOKS/IntervalClassCounter";
 import IntervalHookCounter from "./components/HOOKS/IntervalHookCounter";
+import DataFectching from "./components/HOOKS/DataFectching";
+import DataFectchingOnePost from "./components/HOOKS/DataFectchingOnePost";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <IntervalHookCounter />
-        <IntervalClassCounter />
+        <DataFectchingOnePost />
+        {/* <DataFectching /> */}
+        {/* <IntervalHookCounter />
+        <IntervalClassCounter /> */}
         {/* <MouseContainer /> */}
         {/* <HookMouse /> */}
         {/* <ClassMouse /> */}
