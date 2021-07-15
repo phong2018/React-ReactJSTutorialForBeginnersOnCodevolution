@@ -11,14 +11,21 @@ rpce
 rec
 rconst
 --------
+$9: React Hook - run effect only one
+the second parameter set [] not denpent any parameter
+->like only have componentDidMount
+--------
 $8: React Hook - conditionally run effects 
 the second parameter is change is conditon to run effects
 if the value dont change between render  the useEffect not Run
+->like componentDidUpdate have conditionally
 --------
 $7: React Hook - useEffect 
 useEffect ruen every component render 
+dont have second parameter
+->like call componentDidMount & componentDidUpdate
 --------
-$6: React Hook - useEffect
+$6: React Hook - useEffect Introduction
 like call componentDidMount & componentDidUpdate
 --------
 $5: React Hook - useState with array

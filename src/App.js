@@ -44,13 +44,17 @@ import HookCounterThree from "./components/HOOKS/HookCounterThree";
 import HookCounterFour from "./components/HOOKS/HookCounterFour";
 import ClassCounterOne from "./components/HOOKS/ClassCounterOne";
 import HookCounterOne from "./components/HOOKS/HookCounterOne";
+import ClassMouse from "./components/HOOKS/ClassMouse";
+import HookMouse from "./components/HOOKS/HookMouse";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <HookMouse />
+        {/* <ClassMouse /> */}
         {/* <ClassCounterOne /> */}
-        <HookCounterOne />
+        {/* <HookCounterOne /> */}
         {/* <HookCounterFour /> */}
         {/* <HookCounterThree /> */}
         {/* <HookCounterTwo /> */}
