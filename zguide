@@ -11,6 +11,12 @@ rpce
 rec
 rconst
 --------
+$7: React Hook - useEffect 
+useEffect ruen every component render 
+--------
+$6: React Hook - useEffect
+like call componentDidMount & componentDidUpdate
+--------
 $5: React Hook - useState with array
 --------
 $4: React Hook - useState with object

@@ -42,12 +42,16 @@ import HookCounter from "./components/HOOKS/HookCounter";
 import HookCounterTwo from "./components/HOOKS/HookCounterTwo";
 import HookCounterThree from "./components/HOOKS/HookCounterThree";
 import HookCounterFour from "./components/HOOKS/HookCounterFour";
+import ClassCounterOne from "./components/HOOKS/ClassCounterOne";
+import HookCounterOne from "./components/HOOKS/HookCounterOne";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <HookCounterFour />
+        {/* <ClassCounterOne /> */}
+        <HookCounterOne />
+        {/* <HookCounterFour /> */}
         {/* <HookCounterThree /> */}
         {/* <HookCounterTwo /> */}
         {/* <HookCounter /> */}
