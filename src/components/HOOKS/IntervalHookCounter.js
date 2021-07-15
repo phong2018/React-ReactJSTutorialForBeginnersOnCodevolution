@@ -7,12 +7,16 @@ function IntervalHookCounter() {
   };
 
   useEffect(() => {
+    function doSomeThing() {
+      console.log("count::", count);
+    }
+    doSomeThing();
     console.log("interval called");
     const interval = setInterval(tick, 1000);
     return () => {
       clearInterval(interval);
     };
-  }, []);
+  }, [count]);
 
   return <div>{count}</div>;
 }
