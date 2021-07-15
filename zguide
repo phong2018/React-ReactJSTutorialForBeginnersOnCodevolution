@@ -11,6 +11,14 @@ rpce
 rec
 rconst
 --------
+$10: React Hook - useEffect with cleanup
+like call componentWillUnmount()
+in call useEffect have to:
+call  return () => {
+        console.log("Component Unmouting code");
+        window.removeEventListener("mousemove", logMousePosition);
+    };
+--------
 $9: React Hook - run effect only one
 the second parameter set [] not denpent any parameter
 ->like only have componentDidMount
