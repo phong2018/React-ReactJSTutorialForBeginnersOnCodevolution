@@ -11,6 +11,8 @@ rpce
 rec
 rconst
 --------
+$21: Multiple UseReducer 
+--------
 $20: UseReducer (complex state & action)
 --------
 $19: UseReducer (simple state & action)
