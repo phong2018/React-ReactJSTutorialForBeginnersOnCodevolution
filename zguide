@@ -11,6 +11,15 @@ rpce
 rec
 rconst
 --------
+$19: UseReducer (simple state & action)
+--------
+$18: UseReducer Hook (p3)
+is a hook that used for state management
+- useState: state
+- useEffect: side effects
+- useContext: context API
+- UseReducer: reducers
+--------
 $17: UseContext Hook (p3)
 HOOK/componentE: useContext Hook 
 --------

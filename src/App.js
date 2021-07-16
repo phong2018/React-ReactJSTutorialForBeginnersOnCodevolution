@@ -52,6 +52,7 @@ import IntervalHookCounter from "./components/HOOKS/IntervalHookCounter";
 import DataFectching from "./components/HOOKS/DataFectching";
 import DataFectchingOnePost from "./components/HOOKS/DataFectchingOnePost";
 import ComponentD from "./components/HOOKS/ComponentC";
+import CounterOne from "./components/HOOKS/CounterOne";
 export const userContextFunction = React.createContext();
 export const channelContextFunction = React.createContext();
 
@@ -59,11 +60,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <userContextFunction.Provider value={"Phong"}>
+        <CounterOne />
+        {/* <userContextFunction.Provider value={"Phong"}>
           <channelContextFunction.Provider value={"Hoc Code"}>
             <ComponentD />
           </channelContextFunction.Provider>
-        </userContextFunction.Provider>
+        </userContextFunction.Provider> */}
 
         {/* <DataFectchingOnePost /> */}
         {/* <DataFectching /> */}
