@@ -53,6 +53,7 @@ import DataFectching from "./components/HOOKS/DataFectching";
 import DataFectchingOnePost from "./components/HOOKS/DataFectchingOnePost";
 import ComponentD from "./components/HOOKS/ComponentC";
 import CounterOne from "./components/HOOKS/CounterOne";
+import CounterTwoReducer from "./components/HOOKS/CounterTwoReducer";
 export const userContextFunction = React.createContext();
 export const channelContextFunction = React.createContext();
 
@@ -60,7 +61,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <CounterOne />
+        <CounterTwoReducer />
+        {/* <CounterOne /> */}
         {/* <userContextFunction.Provider value={"Phong"}>
           <channelContextFunction.Provider value={"Hoc Code"}>
             <ComponentD />
