@@ -11,6 +11,9 @@ rpce
 rec
 rconst
 --------
+$17: UseContext Hook (p3)
+HOOK/componentE: useContext Hook 
+--------
 $16: UseContext Hook (p2)
 use normal Context
 --------
