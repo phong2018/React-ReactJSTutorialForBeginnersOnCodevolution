@@ -11,8 +11,13 @@ rpce
 rec
 rconst
 --------
+$24: Fetching data with useReducer (p2)
+/FetchingDataWithUseReducer
+useReducer,useEffect, useReducer
+--------
 $23: Fetching data with useReducer (p1)
 /FetchingDataWithUseReducer
+useState, useEffect
 --------
 $22: UseReducer & useContext
 - useReducer- local state management
