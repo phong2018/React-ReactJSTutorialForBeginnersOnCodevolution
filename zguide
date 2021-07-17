@@ -11,9 +11,17 @@ rpce
 rec
 rconst
 --------
+$24: useState vs useReducer
+- scenarios                 useSate             useReducer
++ typeofData                Number,string,Bool  Object,Array
++ numberOfStateTransition   one,two             too many
++ business logic            no                  complex logic
++ local,global              local               global
+
+--------
 $24: Fetching data with useReducer (p2)
 /FetchingDataWithUseReducer
-useReducer,useEffect, useReducer
+useReducer,useEffect 
 --------
 $23: Fetching data with useReducer (p1)
 /FetchingDataWithUseReducer
