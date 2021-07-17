@@ -11,6 +11,9 @@ rpce
 rec
 rconst
 --------
+$23: Fetching data with useReducer (p1)
+/FetchingDataWithUseReducer
+--------
 $22: UseReducer & useContext
 - useReducer- local state management
 - useContext- share state between components global state manggement

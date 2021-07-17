@@ -56,6 +56,7 @@ import CounterOne from "./components/HOOKS/CounterOne";
 import CounterTwoReducer from "./components/HOOKS/CounterTwoReducer";
 import CounterThreeReducer from "./components/HOOKS/CounterThreeReducer";
 import ReducerContext from "./components/HOOKS/ReducerContext";
+import FetchingDataWithUseReducer from "./components/FetchingDataWithUseReducer/FetchingDataWithUseReducer";
 export const userContextFunction = React.createContext();
 export const channelContextFunction = React.createContext();
 
@@ -63,7 +64,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <ReducerContext />
+        <FetchingDataWithUseReducer />
+        {/* <ReducerContext /> */}
         {/* <CounterThreeReducer /> */}
         {/* <CounterTwoReducer /> */}
         {/* <CounterOne /> */}
