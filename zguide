@@ -11,6 +11,14 @@ rpce
 rec
 rconst
 --------
+$22: UseReducer & useContext
+- useReducer- local state management
+- useContext- share state between components global state manggement
+-> useReducer + useContext
+
+ReducerContext
+ComponentAA,ComponentBB,ComponentCC,ComponentDD,ComponentEE,ComponentFF
+--------
 $21: Multiple UseReducer 
 --------
 $20: UseReducer (complex state & action)

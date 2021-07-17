@@ -55,6 +55,7 @@ import ComponentD from "./components/HOOKS/ComponentC";
 import CounterOne from "./components/HOOKS/CounterOne";
 import CounterTwoReducer from "./components/HOOKS/CounterTwoReducer";
 import CounterThreeReducer from "./components/HOOKS/CounterThreeReducer";
+import ReducerContext from "./components/HOOKS/ReducerContext";
 export const userContextFunction = React.createContext();
 export const channelContextFunction = React.createContext();
 
@@ -62,7 +63,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <CounterThreeReducer />
+        <ReducerContext />
+        {/* <CounterThreeReducer /> */}
         {/* <CounterTwoReducer /> */}
         {/* <CounterOne /> */}
         {/* <userContextFunction.Provider value={"Phong"}>
