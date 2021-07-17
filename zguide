@@ -11,13 +11,17 @@ rpce
 rec
 rconst
 --------
-$24: useState vs useReducer
+$26: useCallback Hook
+- all component re-render
+- use React.memno to solve, but dont solve with function, function till re-render
+-> useCallback to solve
+--------
+$25: useState vs useReducer
 - scenarios                 useSate             useReducer
 + typeofData                Number,string,Bool  Object,Array
 + numberOfStateTransition   one,two             too many
 + business logic            no                  complex logic
 + local,global              local               global
-
 --------
 $24: Fetching data with useReducer (p2)
 /FetchingDataWithUseReducer
