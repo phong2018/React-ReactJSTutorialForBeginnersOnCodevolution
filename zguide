@@ -13,7 +13,7 @@ rconst
 --------
 $26: useCallback Hook
 - all component re-render
-- use React.memno to solve, but dont solve with function, function till re-render
+- use React.memno to solve, but dont solve with function, function till re-render. Because a new increment salary function is create, each time the parent component renders, and when dealing with function we alway have to consider reference equality, even though two functions have the exact same behavior, it does  not mean they are equal to each other. the function before rerender is different to the function after rerender
 -> useCallback to solve
 --------
 $25: useState vs useReducer
