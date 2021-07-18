@@ -59,6 +59,7 @@ import ReducerContext from "./components/HOOKS/ReducerContext";
 import FetchingDataWithUseReducer from "./components/FetchingDataWithUseReducer/FetchingDataWithUseReducer";
 import UseCallbackHook from "./components/UseCallbackHook/UseCallbackHook";
 import UseMemoHook from "./components/UseMemoHook/UseMemoHook";
+import UseRefHook from "./components/UseRefHook/UseRefHook";
 export const userContextFunction = React.createContext();
 export const channelContextFunction = React.createContext();
 
@@ -66,7 +67,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <UseMemoHook/>
+        <UseRefHook />
+        {/* <UseMemoHook/> */}
         {/* <UseCallbackHook /> */}
         {/* <FetchingDataWithUseReducer /> */}
         {/* <ReducerContext /> */}
