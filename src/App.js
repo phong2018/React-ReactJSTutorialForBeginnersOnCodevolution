@@ -58,6 +58,7 @@ import CounterThreeReducer from "./components/HOOKS/CounterThreeReducer";
 import ReducerContext from "./components/HOOKS/ReducerContext";
 import FetchingDataWithUseReducer from "./components/FetchingDataWithUseReducer/FetchingDataWithUseReducer";
 import UseCallbackHook from "./components/UseCallbackHook/UseCallbackHook";
+import UseMemoHook from "./components/UseMemoHook/UseMemoHook";
 export const userContextFunction = React.createContext();
 export const channelContextFunction = React.createContext();
 
@@ -65,7 +66,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <UseCallbackHook />
+        <UseMemoHook/>
+        {/* <UseCallbackHook /> */}
         {/* <FetchingDataWithUseReducer /> */}
         {/* <ReducerContext /> */}
         {/* <CounterThreeReducer /> */}

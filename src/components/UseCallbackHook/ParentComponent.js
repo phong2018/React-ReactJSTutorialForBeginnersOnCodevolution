@@ -6,10 +6,10 @@ import Title from "./Title";
 function ParentComponent() {
   const [age, setAge] = useState(25);
   const [salary, setSalary] = useState(50000);
-  const increamentAge = React.useCallback(() => {
+  const increamentAge = useCallback(() => {
     setAge(age + 1);
   }, [age]);
-  const increamentSalary = React.useCallback(() => {
+  const increamentSalary = useCallback(() => {
     setSalary(salary + 1000);
   }, [salary]);
   return (

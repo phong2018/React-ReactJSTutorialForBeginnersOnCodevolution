@@ -11,6 +11,11 @@ rpce
 rec
 rconst
 --------
+$27: useMemo Hook
+every state update, the component render
+-> issue: component render counterTwo slowly causing of function isEvent, althougth buttonTwo dont change.
+-> solve: useMemo
+--------
 $26: useCallback Hook
 - all component re-render
 - use React.memno to solve, but dont solve with function, function till re-render. Because a new increment salary function is create, each time the parent component renders, and when dealing with function we alway have to consider reference equality, even though two functions have the exact same behavior, it does  not mean they are equal to each other. the function before rerender is different to the function after rerender
