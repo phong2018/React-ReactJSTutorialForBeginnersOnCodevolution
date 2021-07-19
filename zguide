@@ -11,6 +11,15 @@ rpce
 rec
 rconst
 --------
+$30: Hook so far
+useState
+useEffect
+useContext
+useReducer
+useCallback
+useMemo
+useRef
+--------
 $29: useRef Hook (p2)
 --------
 $28: useRef Hook (p1)
