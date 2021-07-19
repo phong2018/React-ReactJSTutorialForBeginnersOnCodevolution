@@ -11,6 +11,8 @@ rpce
 rec
 rconst
 --------
+$32: useCounter Custom Hook
+--------
 $31: useDocumentTitle Custom Hook
 create hook useDocumentTitle.js and use in DocTitleOne, DocTitleTwo
 --------
