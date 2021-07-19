@@ -11,6 +11,9 @@ rpce
 rec
 rconst
 --------
+$31: useDocumentTitle Custom Hook
+create hook useDocumentTitle.js and use in DocTitleOne, DocTitleTwo
+--------
 $30: Hook so far
 useState
 useEffect
