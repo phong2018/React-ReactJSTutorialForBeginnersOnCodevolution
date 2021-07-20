@@ -15,6 +15,12 @@ rconst
 ==============o0o=============
 Redux
 --------
+$25: redux mapStateToProps
+ItemContainer, tranfer ownProps to mapStatetoProps
+--------
+$25: redux payload
+add: NewCakeContainer.js
+--------
 $24: redux devTool Extension
 google: redux devTool, install to chorm
 google: redux devTool->github, install to react
