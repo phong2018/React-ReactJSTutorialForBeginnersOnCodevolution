@@ -15,7 +15,9 @@ rconst
 ==============o0o=============
 Redux
 --------
-
+$4: Add redux Store
+--------
+$3: Add reducers
 -------
 $2: Action
 -------
