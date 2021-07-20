@@ -17,6 +17,7 @@ Redux
 --------
 $27: redux mapDispatchToProps
 ItemContainer, tranfer ownProps to mapDispatchtoProps
+- dont subscribing state, assign mapStateToProps=null in connect
 --------
 $26: redux mapStateToProps
 ItemContainer, tranfer ownProps to mapStatetoProps
