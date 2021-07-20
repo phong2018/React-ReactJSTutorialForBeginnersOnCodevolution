@@ -10,7 +10,15 @@ rfce
 rpce
 rec
 rconst
---------
+
+
+==============o0o=============
+Redux
+$2: Action
+-------
+$1: Setup React-Redux
+npm install redux react-redux
+==============o0o=============
 $33: useInput Custom Hook
 --------
 $32: useCounter Custom Hook
