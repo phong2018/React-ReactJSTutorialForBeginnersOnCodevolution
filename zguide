@@ -15,6 +15,9 @@ rconst
 ==============o0o=============
 Redux
 --------
+$23: Logger Middleware
+npm i redux-logger
+--------
 $22: add Cakes and IceCream
 --------
 $21: React useDispatch Hook (p2)
