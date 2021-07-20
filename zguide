@@ -15,7 +15,10 @@ rconst
 ==============o0o=============
 Redux
 --------
-$25: redux mapStateToProps
+$27: redux mapDispatchToProps
+ItemContainer, tranfer ownProps to mapDispatchtoProps
+--------
+$26: redux mapStateToProps
 ItemContainer, tranfer ownProps to mapStatetoProps
 --------
 $25: redux payload
