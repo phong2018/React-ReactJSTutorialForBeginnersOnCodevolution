@@ -15,6 +15,13 @@ rconst
 ==============o0o=============
 Redux
 --------
+$24: redux devTool Extension
+google: redux devTool, install to chorm
+google: redux devTool->github, install to react
+https://github.com/zalmoxisus/redux-devtools-extension
+npm install --save redux-devtools-extension
+
+--------
 $23: Logger Middleware
 npm i redux-logger
 --------
