@@ -15,15 +15,20 @@ rconst
 ==============o0o=============
 Redux
 --------
-$5: Add Connect
+$20: React Redux + Hook (p2)
+use useSelector  from "react-redux"
 --------
-$4: Add redux Store
+$19: React Redux + Hook (p1)
 --------
-$3: Add reducers
+$18: Add Connect
+--------
+$17: Add redux Store
+--------
+$16: Add reducers
 -------
-$2: Action
+$15: Action
 -------
-$1: Setup React-Redux
+$14: Setup React-Redux
 npm install redux react-redux
 ==============o0o=============
 $33: useInput Custom Hook
