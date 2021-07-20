@@ -11,6 +11,8 @@ rpce
 rec
 rconst
 --------
+$33: useInput Custom Hook
+--------
 $32: useCounter Custom Hook
 --------
 $31: useDocumentTitle Custom Hook
